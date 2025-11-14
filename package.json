@@ -1,0 +1,42 @@
+{
+  "name": "training-leetcode",
+  "version": "1.0.0",
+  "description": "A structured repository for practicing LeetCode problems with implementations in Python and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint problems/**/*.ts",
+    "lint:fix": "eslint problems/**/*.ts --fix",
+    "format": "prettier --write 'problems/**/*.{ts,js,json,md}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenta-morimori/training-leetcode.git"
+  },
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "data-structures",
+    "coding-interview",
+    "practice"
+  ],
+  "author": "Kenta Morimori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kenta-morimori/training-leetcode/issues"
+  },
+  "homepage": "https://github.com/Kenta-morimori/training-leetcode#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
